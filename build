@@ -1,7 +1,7 @@
 cc_library(
-    name = "",
+    name = "Servo Motor Module",
     srcs = [
-        "src/",
+        "src/Servo-Motor-Module.h",
     ],
     includes = [
         "src",
