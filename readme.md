@@ -4,7 +4,7 @@
 
 ## Get Started
 
-**Import**
+### Import
 
 1. Look up `Servo-Motor-Module` in the Library Manager and install the latest version
 2. Insert the following snippet
@@ -13,7 +13,7 @@
 #include <Servo-Motor-Module.h>
 ```
 
-**Setup**
+### Setup
 
 ```ino
 ServoMotor name = { int servo, int angle };
@@ -30,7 +30,7 @@ ServoMotor name = { int servo, int angle };
 ServoMotor example = {9, 27};
 ```
 
-**Use**
+### Use
 
 ```ino
 Servo.move(Servo i, int angle);
@@ -47,4 +47,22 @@ Servo.move(Servo i, int angle);
 
 ```ino
 example.move(example);
+```
+
+### Change the angle
+
+```ino
+Servo.angle = newValue;
+```
+
+**Description** Change the value of the set angle
+
+**Parameters**
+* `Servo` Name of the defined `ServoMotor` class
+* `newValue` New Angle defined as Integer
+
+**Example**
+
+```ino
+example.angle = 4;
 ```
