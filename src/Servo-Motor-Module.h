@@ -1,6 +1,6 @@
 #include <Servo.h>
 
-class Servo {
+class ServoMotor {
   public:
     int servo;
     int angle;
@@ -9,7 +9,7 @@ class Servo {
 
 Servo servo;
 
-void Servo::move(Servo i, int angle) {
+void ServoMotor::move(ServoMotor i, int angle) {
   i.angle = angle;
   servo.attach(i.servo);
   servo.write(angle);
