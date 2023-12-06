@@ -4,6 +4,7 @@ class Servo {
   public:
     int servo;
     int angle;
+    move(Servo i, int angle);
 };
 
 Servo servo;
