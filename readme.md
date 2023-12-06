@@ -4,19 +4,19 @@
 
 ## Get Started
 
-**Import Servo Motor Module**
+**Import**
 
 1. Look up `Servo-Motor-Module` in the Library Manager and install the latest version
 2. Insert the following snippet
  
 ```ino
-#include <example.h>
+#include <Servo-Motor-Module.h>
 ```
 
-**Setup Servo Motor Module**
+**Setup**
 
 ```ino
-<Setup>
+Servo pin1;
 ```
 **Parameters**
 
