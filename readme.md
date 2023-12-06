@@ -16,7 +16,7 @@
 ### Setup
 
 ```ino
-ServoMotor [name] = { int servo, int angle };
+ServoMotor [name] = { int servo };
 ```
 **Parameters**
 
@@ -27,20 +27,19 @@ ServoMotor [name] = { int servo, int angle };
 **Example**
 
 ```ino
-ServoMotor example = {9, 27};
+ServoMotor example = 9;
 ```
 
 ### Use
 
 ```ino
-Servo.move(Servo i, int angle);
+Servo.move(int angle);
 ```
 
 **Description** Move the Servo
 
 **Parameters**
 * `Servo [ before the word "move" ]` Name of the defined `Servo` class
-* `i` Name of the defined `Servo` class
 * `angle` Angle to rotate
 
 **Example**
