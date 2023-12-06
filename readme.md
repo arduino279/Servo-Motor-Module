@@ -47,21 +47,3 @@ Servo.move(int angle);
 ```ino
 example.move(example);
 ```
-
-### Change the angle
-
-```ino
-Servo.angle = newValue;
-```
-
-**Description** Change the value of the set angle
-
-**Parameters**
-* `Servo` Name of the defined `ServoMotor` class
-* `newValue` New Angle defined as Integer
-
-**Example**
-
-```ino
-example.angle = 4;
-```
