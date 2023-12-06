@@ -4,13 +4,13 @@ class ServoMotor {
   public:
     int servo;
     int angle;
-    move(Servo i, int angle);
+    move(int angle);
 };
 
 Servo servo;
 
-void ServoMotor::move(ServoMotor i) {
-  i.angle = angle;
-  servo.attach(i.servo);
+void ServoMotor::move(int angle) {
+  this.angle = angle;
+  servo.attach(this.servo);
   servo.write(angle);
 }
