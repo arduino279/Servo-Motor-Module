@@ -9,7 +9,7 @@ class ServoMotor {
 
 Servo servo;
 
-void ServoMotor::move(ServoMotor i, int angle) {
+void ServoMotor::move(ServoMotor i) {
   i.angle = angle;
   servo.attach(i.servo);
   servo.write(angle);
