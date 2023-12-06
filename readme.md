@@ -16,7 +16,7 @@
 **Setup**
 
 ```ino
-Servo name = { int servo, int angle };
+ServoMotor name = { int servo, int angle };
 ```
 **Parameters**
 
@@ -27,7 +27,7 @@ Servo name = { int servo, int angle };
 **Example**
 
 ```ino
-Servo example = {9, 27};
+ServoMotor example = {9, 27};
 ```
 
 **Use**
