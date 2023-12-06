@@ -16,14 +16,28 @@
 **Setup**
 
 ```ino
-Servo pin1;
+Servo name = { int servo, int angle };
 ```
 **Parameters**
 
-* `i` Index
+* `name` Any name without spaces
+* `servo` Pin of the servo
+* `angle` Angle to rotate
 
 **Example**
 
 ```ino
-<Example>
+Servo example = {9, 27};
 ```
+
+**Use**
+
+```ino
+Servo.move(Servo i, int angle);
+```
+
+**Description** Move the Servo
+
+**Parameters**
+* `i` Name of the defined `Servo` class
+* `angle` Angle to rotate
