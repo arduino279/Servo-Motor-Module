@@ -39,5 +39,12 @@ Servo.move(Servo i, int angle);
 **Description** Move the Servo
 
 **Parameters**
+* `Servo [ before the word "move" ]` Name of the defined `Servo` class
 * `i` Name of the defined `Servo` class
 * `angle` Angle to rotate
+
+**Example**
+
+```ino
+example.move(example);
+```
