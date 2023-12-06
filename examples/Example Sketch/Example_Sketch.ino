@@ -5,7 +5,7 @@ void setup() {
 }
 
 void loop() {
-  example.move(example); */ Move the servo */
+  example.move(example); /* Move the servo */
   delay(2000); /* Wait 2 seconds */
   example.angle = 57; /* Set a new angle */
   example.move(); /* Move the servo */
