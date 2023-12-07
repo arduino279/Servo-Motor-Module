@@ -1,11 +1,10 @@
 #include <Servo.h>
 
-class ServoMotor {
-  public:
+struct ServoMotor {
     int servo;
     int angle;
     move(int angle);
-};
+} ServoMotor;
 
 Servo servo;
 
