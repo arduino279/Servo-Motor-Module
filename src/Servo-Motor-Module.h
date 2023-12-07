@@ -1,15 +1,19 @@
 #include <Servo.h>
 
-struct ServoMotor {
+struct Servo2 {
     int servo;
     int angle;
     move(int angle);
-} ServoMotor;
+    attach(int pin);
+} Servo2;
 
 Servo servo;
 
-void ServoMotor::move(int angle) {
+void Servo2::move(int angle) {
   this.angle = angle;
-  servo.attach(this.servo);
   servo.write(angle);
+}
+
+void Servo2::attach(int pin) {
+    servo.attach(this.servo);
 }
