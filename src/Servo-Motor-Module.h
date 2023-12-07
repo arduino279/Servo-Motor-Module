@@ -3,7 +3,7 @@
 struct Servo2 {
     int servo;
     move(int angle);
-    attach();
+    attach(int pin);
 } Servo2;
 
 Servo servo;
