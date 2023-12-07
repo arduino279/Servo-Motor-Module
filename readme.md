@@ -55,5 +55,5 @@ Servo.move(int angle);
 **Example**
 
 ```ino
-example.move(example);
+example.move(6);
 ```
