@@ -4,7 +4,7 @@ struct Servo2 {
     int servo;
     int angle;
     move(int angle);
-    attach(int pin);
+    attach();
 } Servo2;
 
 Servo servo;
@@ -14,6 +14,6 @@ void Servo2::move(int angle) {
   servo.write(angle);
 }
 
-void Servo2::attach(int pin) {
+void Servo2::attach() {
     servo.attach(this.servo);
 }
