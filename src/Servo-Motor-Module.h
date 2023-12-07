@@ -13,6 +13,6 @@ void Servo2::move(int angle) {
   servo.write(angle);
 }
 
-void Servo2::attach() {
-    servo.attach(this.servo);
+void Servo2::attach(int pin) {
+    servo.attach(pin);
 }
