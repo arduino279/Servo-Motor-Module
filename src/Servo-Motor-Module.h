@@ -2,7 +2,6 @@
 
 struct Servo2 {
     int servo;
-    int angle;
     move(int angle);
     attach();
 } Servo2;
