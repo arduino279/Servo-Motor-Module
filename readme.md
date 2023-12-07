@@ -32,14 +32,24 @@ ServoMotor example = 9;
 
 ### Use
 
+#### Attach
+
+```ino
+Servo.attach(int pin);
+```
+
+**Parameters**
+* `Servo` Name of the defined `Servo` class
+* `pin` Pin of the Servo
+
+#### Move
+
 ```ino
 Servo.move(int angle);
 ```
 
-**Description** Move the Servo
-
 **Parameters**
-* `Servo [ before the word "move" ]` Name of the defined `Servo` class
+* `Servo` Name of the defined `Servo` class
 * `angle` Angle to rotate
 
 **Example**
