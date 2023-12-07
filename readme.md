@@ -16,13 +16,11 @@
 ### Setup
 
 ```ino
-ServoMotor [name] = { int servo };
+ServoMotor [name];
 ```
 **Parameters**
 
 * `[name]` Any name without spaces
-* `servo` Pin of the servo
-* `angle` Angle to rotate
 
 **Example**
 
