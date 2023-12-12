@@ -18,40 +18,39 @@
 ```ino
 ServoMotor [name];
 ```
-**Parameters**
+**Description** *No Description available*
 
+**Parameters**
 * `[name]` Any name without spaces
 
 **Example**
-
 ```ino
 ServoMotor example = 9;
 ```
 
 ### Use
 
-#### Attach
-
 ```ino
 Servo.attach(int pin);
 ```
+**Description** *No Description available*
 
 **Parameters**
 * `Servo` Name of the defined `Servo` class
 * `pin` Pin of the Servo
 
-#### Move
+---
 
 ```ino
 Servo.move(int angle);
 ```
+**Description** *No Description available*
 
 **Parameters**
 * `Servo` Name of the defined `Servo` class
 * `angle` Angle to rotate
 
 **Example**
-
 ```ino
 example.move(6);
 ```
