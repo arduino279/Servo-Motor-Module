@@ -1,2 +1,9 @@
-function1    KEYWORD2
-function2    KEYWORD2
+# Syntax Coloring Map For Servo_Motor_Module
+
+# Datatypes (KEYWORD1)
+
+# Methods and Functions (KEYWORD2)
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)
