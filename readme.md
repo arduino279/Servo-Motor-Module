@@ -16,7 +16,7 @@
 ### Setup
 
 ```ino
-ServoMotor [name];
+Servo2 [name];
 ```
 **Description** *No Description available*
 
@@ -25,29 +25,29 @@ ServoMotor [name];
 
 **Example**
 ```ino
-ServoMotor example = 9;
+Servo2 example;
 ```
 
 ### Use
 
 ```ino
-Servo.attach(int pin);
+[Name].attach(int pin);
 ```
 **Description** *No Description available*
 
 **Parameters**
-* `Servo` Name of the defined `Servo` class
+* `[Name]` Name of the defined `Servo` class
 * `pin` Pin of the Servo
 
 ---
 
 ```ino
-Servo.move(int angle);
+[Name].move(int angle);
 ```
 **Description** *No Description available*
 
 **Parameters**
-* `Servo` Name of the defined `Servo` class
+* `[Name]` Name of the defined `Servo` class
 * `angle` Angle to rotate
 
 **Example**
