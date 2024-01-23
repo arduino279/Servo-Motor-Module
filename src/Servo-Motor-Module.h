@@ -4,7 +4,6 @@ Servo servo;
 
 class Servo2 {
   public:
-    int servo;
     move(int angle);
     attach(int pin);
 };
