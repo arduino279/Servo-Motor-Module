@@ -4,15 +4,17 @@ Servo servo;
 
 class Servo2 {
   public:
-    move(int angle);
-    attach(int pin);
+    int move(int angle);
+    int attach(int pin);
 };
 
-void Servo2::move(int angle) {
+int Servo2::move(int angle) {
   this.angle = angle;
   servo.write(angle);
+  return true;
 }
 
-void Servo2::attach(int pin) {
-    servo.attach(pin);
+int Servo2::attach(int pin) {
+  servo.attach(pin);
+  return true;
 }
