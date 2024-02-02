@@ -5,17 +5,17 @@ Servo servo;
 class Servo2 {
   public:
     int pin;
-    int move(int angle);
-    int attach();
+    bool move(int angle);
+    bool attach();
 };
 
-int Servo2::move(int angle) {
+bool Servo2::move(int angle) {
   this.angle = angle;
   servo.write(angle);
   return true;
 }
 
-int Servo2::attach() {
+bool Servo2::attach() {
   servo.attach(pin);
   return true;
 }
