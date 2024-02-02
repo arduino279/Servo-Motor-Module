@@ -1,10 +1,8 @@
-# Servo Motor Module
+![](https://github.com/arduino279/Servo-Motor-Module/assets/76214766/89fbfed6-1c85-440f-b740-0a46a724e3ed)
 
-[![](https://img.shields.io/badge/Available_in_the_Arduino_Library_Manager-2ea44f)](<Link>)
-
-## Get Started
-
-### Import
+ . 
+ 
+![](https://github.com/arduino279/Servo-Motor-Module/assets/76214766/95ebebae-2ab8-440a-835c-a651985916dc)
 
 1. Look up `Servo-Motor-Module` in the Library Manager and install the latest version
 2. Insert the following snippet
