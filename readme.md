@@ -1,4 +1,5 @@
-![Servo Motor Module (1)](https://github.com/arduino279/Servo-Motor-Module/assets/76214766/ddb99495-8994-42be-9dd6-4f613116c915)
+![Uploading Servo Motor Module (3).svg…]()
+
 
 1. Look up `Servo-Motor-Module` in the Library Manager and install the latest version
 2. Insert the following snippet
