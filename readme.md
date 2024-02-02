@@ -1,4 +1,4 @@
-![](https://github.com/arduino279/Servo-Motor-Module/assets/76214766/95ebebae-2ab8-440a-835c-a651985916dc)
+![Servo Motor Module (1)](https://github.com/arduino279/Servo-Motor-Module/assets/76214766/ddb99495-8994-42be-9dd6-4f613116c915)
 
 1. Look up `Servo-Motor-Module` in the Library Manager and install the latest version
 2. Insert the following snippet
