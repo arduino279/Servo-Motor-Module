@@ -4,9 +4,8 @@ Servo servo;
 
 class Servo2 {
   public:
-    int pin;
     bool move(int angle);
-    bool attach();
+    bool attach(int pin);
 };
 
 bool Servo2::move(int angle) {
@@ -15,7 +14,7 @@ bool Servo2::move(int angle) {
   return true;
 }
 
-bool Servo2::attach() {
+bool Servo2::attach(int pin) {
   servo.attach(pin);
   return true;
 }
