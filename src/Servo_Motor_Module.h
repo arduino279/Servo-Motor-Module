@@ -9,7 +9,6 @@ class Servo2 {
 };
 
 bool Servo2::move(int angle) {
-  this->angle = angle;
   servo.write(angle);
   return true;
 }
