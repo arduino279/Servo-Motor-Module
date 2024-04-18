@@ -1,5 +1,10 @@
 # Servo Motor Module
 
+[![](https://img.shields.io/badge/Available_in_the_Arduino_Library_Manager-2ea44f)](https://www.arduino.cc/reference/en/libraries/engine-control/)
+
+## Get Started
+
+### Import
 
 1. Look up `Servo-Motor-Module` in the Library Manager and install the latest version
 2. Insert the following snippet
@@ -34,7 +39,6 @@ Servo2 example;
 * `[Name]` Name of the defined `Servo` class
 * `pin` Pin of the Servo
 
----
 
 ```ino
 [Name].move(int angle);
