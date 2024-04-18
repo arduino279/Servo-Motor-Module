@@ -33,6 +33,7 @@ Servo2 example;
 **Parameters**
 * `pin` Pin of the Servo
 
+---
 
 ```ino
 [name].move(int angle);
