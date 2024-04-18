@@ -1,4 +1,4 @@
-![Uploading Servo Motor Module (3).svg…]()
+# Servo Motor Module
 
 
 1. Look up `Servo-Motor-Module` in the Library Manager and install the latest version
