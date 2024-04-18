@@ -33,6 +33,12 @@ Servo2 example;
 **Parameters**
 * `pin` Pin of the Servo
 
+**Example**
+
+```ino
+example.attach(9);
+```
+
 ---
 
 ```ino
